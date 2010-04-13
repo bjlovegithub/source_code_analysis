@@ -1,0 +1,23 @@
+;; Object examples/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "examples/"
+  :tables (list 
+   (semanticdb-table "simpleindex.cc"
+    :major-mode 'c++-mode
+    :tags '(("xapian.h" include (:system-flag t) nil [857 876]) ("iostream" include (:system-flag t) nil [878 897]) ("string" include (:system-flag t) nil [898 915]) ("cstdlib" include (:system-flag t) nil [917 935]) ("cstring" include (:system-flag t) nil [951 969]) ("main" function (:arguments (("argc" variable (:type "int") (reparse-symbol arg-sub-list) [1002 1011]) ("argv" variable (:pointer 2 :type "char") (reparse-symbol arg-sub-list) [1012 1024])) :type "int") nil [993 2130]))
+    :file "simpleindex.cc"
+    :pointmax 2189
+    :unmatched-syntax '((thing 2131 . 2188) (thing 2106 . 2130) (thing 2100 . 2105))
+    )
+   (semanticdb-table "delve.cc"
+    :major-mode 'c++-mode
+    :tags '(("config.h" include (:system-flag t) nil [930 949]) ("xapian.h" include (:system-flag t) nil [951 970]) ("algorithm" include (:system-flag t) nil [972 992]) ("iostream" include (:system-flag t) nil [993 1012]) ("vector" include (:system-flag t) nil [1013 1030]) ("gnu_getopt.h" include nil nil [1032 1055]) ("cstring" include (:system-flag t) nil [1057 1075]) ("separator" variable (:typemodifiers ("static") :default-value "' '" :type "char") nil [1123 1151]) ("verbose" variable (:typemodifiers ("static") :default-value "false;" :type "bool") nil [1153 1181]) ("showvalues" variable (:typemodifiers ("static") :default-value "false;" :type "bool") nil [1182 1213]) ("showdocdata" variable (:typemodifiers ("static") :default-value "false;" :type "bool") nil [1214 1246]) ("PROG_NAME" variable (:constant-flag t) nil [1256 1291]) ("PROG_DESC" variable (:constant-flag t) nil [1282 1343]) ("show_usage" function (:typemodifiers ("static") :type "void") nil [1337 2224]) ("show_db_stats" function (:typemodifiers ("static") :arguments (("db" variable (:type ("Database" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2252 2265])) :type "void") nil [2226 3000]) ("show_values" function (:typemodifiers ("static") :arguments (("db" variable (:type ("Database" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3026 3039]) ("docid" variable (:type ("docid" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3040 3052]) ("sep" variable (:type "char") (reparse-symbol arg-sub-list) [3053 3062])) :type "void") nil [3002 3245]) ("show_values" function (:typemodifiers ("static") :arguments (("db" variable (:type ("Database" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3271 3284]) ("i" variable (:type ("vector::const_iterator" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3290 3322]) ("end" variable (:type ("vector::const_iterator" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3328 3362])) :type "void") nil [3247 3494]) ("show_docdata" function (:typemodifiers ("static") :arguments (("db" variable (:type ("Database" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3521 3534]) ("docid" variable (:type ("docid" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3535 3547]) ("sep" variable (:type "char") (reparse-symbol arg-sub-list) [3548 3557])) :type "void") nil [3496 3629]) ("show_docdata" function (:typemodifiers ("static") :arguments (("db" variable (:type ("Database" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3656 3669]) ("i" variable (:type ("vector::const_iterator" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3676 3708]) ("end" variable (:type ("vector::const_iterator" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3715 3749])) :type "void") nil [3631 3888]) ("show_termlists" function (:typemodifiers ("static") :arguments (("db" variable (:type ("Database" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3917 3930]) ("i" variable (:type ("vector::const_iterator" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3939 3971]) ("end" variable (:type ("vector::const_iterator" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3980 4014])) :type "void") nil [3890 4372]) ("stemmer" variable (:typemodifiers ("static") :type ("Stem" type (:type "class") nil nil)) nil [4374 4394]) ("main" function (:arguments (("argc" variable (:type "int") (reparse-symbol arg-sub-list) [4405 4414]) ("argv" variable (:pointer 2 :type "char") (reparse-symbol arg-sub-list) [4415 4427])) :type "int") nil [4396 8138]))
+    :file "delve.cc"
+    :pointmax 8213
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "semantic.cache"
+  :semantic-tag-version "2.0pre4"
+  :semanticdb-version "2.0pre4"
+  )

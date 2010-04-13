@@ -1,0 +1,3 @@
+common/omdebug.lo: common/omdebug.cc config.h
+
+config.h:

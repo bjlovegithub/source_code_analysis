@@ -1,0 +1,50 @@
+common/getopt.lo: common/getopt.cc config.h common/gnu_getopt.h \
+  /usr/include/c++/4.3/cctype \
+  /usr/include/c++/4.3/i486-linux-gnu/bits/c++config.h \
+  /usr/include/c++/4.3/i486-linux-gnu/bits/os_defines.h \
+  /usr/include/features.h /usr/include/sys/cdefs.h \
+  /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+  /usr/include/gnu/stubs-32.h \
+  /usr/include/c++/4.3/i486-linux-gnu/bits/cpu_defines.h \
+  /usr/include/ctype.h /usr/include/bits/types.h \
+  /usr/include/bits/typesizes.h /usr/include/endian.h \
+  /usr/include/bits/endian.h /usr/include/xlocale.h \
+  /usr/include/gnu-versions.h /usr/include/getopt.h
+
+config.h:
+
+common/gnu_getopt.h:
+
+/usr/include/c++/4.3/cctype:
+
+/usr/include/c++/4.3/i486-linux-gnu/bits/c++config.h:
+
+/usr/include/c++/4.3/i486-linux-gnu/bits/os_defines.h:
+
+/usr/include/features.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-32.h:
+
+/usr/include/c++/4.3/i486-linux-gnu/bits/cpu_defines.h:
+
+/usr/include/ctype.h:
+
+/usr/include/bits/types.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/endian.h:
+
+/usr/include/bits/endian.h:
+
+/usr/include/xlocale.h:
+
+/usr/include/gnu-versions.h:
+
+/usr/include/getopt.h:

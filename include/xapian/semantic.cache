@@ -1,0 +1,43 @@
+;; Object xapian/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "xapian/"
+  :tables (list 
+   (semanticdb-table "termgenerator.h"
+    :major-mode 'c-mode
+    :tags '(("XAPIAN_INCLUDED_TERMGENERATOR_H" variable (:constant-flag t) nil [883 917]) ("xapian/base.h" include (:system-flag t) nil [916 940]) ("xapian/types.h" include (:system-flag t) nil [941 966]) ("xapian/unicode.h" include (:system-flag t) nil [967 994]) ("xapian/visibility.h" include (:system-flag t) nil [995 1025]) ("string" include (:system-flag t) nil [1027 1044]) ("Xapian" type (:members (("Document" type (:prototype t :type "class") (reparse-symbol namespacesubparts) [1066 1081]) ("Stem" type (:prototype t :type "class") (reparse-symbol namespacesubparts) [1082 1093]) ("Stopper" type (:prototype t :type "class") (reparse-symbol namespacesubparts) [1094 1108]) ("WritableDatabase" type (:prototype t :type "class") (reparse-symbol namespacesubparts) [1109 1132])) :type "namespace") nil [1046 5259]))
+    :file "termgenerator.h"
+    :pointmax 5303
+    :unmatched-syntax '((thing 5255 . 5256) (thing 1465 . 5255) (thing 1451 . 1464) (thing 1425 . 1450) (thing 1419 . 1424))
+    )
+   (semanticdb-table "stem.h"
+    :major-mode 'c-mode
+    :tags '(("XAPIAN_INCLUDED_STEM_H" variable (:constant-flag t) nil [852 877]) ("xapian/base.h" include (:system-flag t) nil [876 900]) ("xapian/visibility.h" include (:system-flag t) nil [901 931]) ("string" include (:system-flag t) nil [933 950]) ("Xapian" type (:type "namespace") nil [952 3196]))
+    :file "stem.h"
+    :pointmax 3231
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "queryparser.h"
+    :major-mode 'c-mode
+    :tags '(("XAPIAN_INCLUDED_QUERYPARSER_H" variable (:constant-flag t) nil [924 956]) ("xapian/base.h" include (:system-flag t) nil [955 979]) ("xapian/query.h" include (:system-flag t) nil [980 1005]) ("xapian/termiterator.h" include (:system-flag t) nil [1006 1038]) ("xapian/visibility.h" include (:system-flag t) nil [1039 1069]) ("set" include (:system-flag t) nil [1071 1085]) ("string" include (:system-flag t) nil [1086 1103]) ("Xapian" type (:members (("Stem" type (:prototype t :type "class") (reparse-symbol namespacesubparts) [1125 1136]) ("sortable_serialise" function (:prototype-flag t :arguments (("value" variable (:type "double") (reparse-symbol arg-sub-list) [22270 22283])) :type ("std::string" type (:type "class") nil nil)) (reparse-symbol namespacesubparts) [22239 22284]) ("sortable_unserialise" function (:prototype-flag t :arguments (("value" variable (:constant-flag t :type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [22907 22933])) :type "double") (reparse-symbol namespacesubparts) [22879 22934])) :type "namespace") nil [1105 22937]))
+    :file "queryparser.h"
+    :pointmax 22979
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "dbfactory.h"
+    :major-mode 'c-mode
+    :tags '(("XAPIAN_INCLUDED_DBFACTORY_H" variable (:constant-flag t) nil [931 961]) ("string" include (:system-flag t) nil [960 977]) ("xapian/types.h" include (:system-flag t) nil [979 1004]) ("xapian/version.h" include (:system-flag t) nil [1005 1032]) ("xapian/visibility.h" include (:system-flag t) nil [1033 1063]) ("Xapian" type (:members (("Database" type (:prototype t :type "class") (reparse-symbol namespacesubparts) [1085 1100]) ("WritableDatabase" type (:prototype t :type "class") (reparse-symbol namespacesubparts) [1101 1124]) ("Auto" type (:members (("open_stub" function (:prototype-flag t :arguments (("file" variable (:constant-flag t :type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1476 1500])) :type ("Database" type (:type "class") nil nil)) (reparse-symbol namespacesubparts) [1457 1501]) ("open_stub" function (:prototype-flag t :arguments (("file" variable (:constant-flag t :type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1774 1798]) ("action" variable (:type "int") (reparse-symbol arg-sub-list) [1799 1810])) :type ("WritableDatabase" type (:type "class") nil nil)) (reparse-symbol namespacesubparts) [1747 1811])) :type "namespace") (reparse-symbol namespacesubparts) [1206 1814])) :type "namespace") nil [1065 9645]))
+    :file "dbfactory.h"
+    :pointmax 9688
+    :unmatched-syntax '((thing 1721 . 1746) (thing 1431 . 1456))
+    )
+   (semanticdb-table "types.h"
+    :major-mode 'c-mode
+    :tags '(("XAPIAN_INCLUDED_TYPES_H" variable (:constant-flag t) nil [855 889]) ("Xapian" type (:members (("doccount" type (:typedef ("unsigned int") :superclasses "unsigned int" :type "typedef") (reparse-symbol namespacesubparts) [1060 1086]) ("doccount_diff" type (:typedef ("int") :superclasses "int" :type "typedef") (reparse-symbol namespacesubparts) [1256 1282]) ("docid" type (:typedef ("unsigned int") :superclasses "unsigned int" :type "typedef") (reparse-symbol namespacesubparts) [1495 1518]) ("doclength" type (:typedef ("double") :superclasses "double" :type "typedef") (reparse-symbol namespacesubparts) [1679 1704]) ("percent" type (:typedef ("int") :superclasses "int" :type "typedef") (reparse-symbol namespacesubparts) [1761 1781]) ("termcount" type (:typedef ("unsigned int") :superclasses "unsigned int" :type "typedef") (reparse-symbol namespacesubparts) [1890 1917]) ("termcount_diff" type (:typedef ("int") :superclasses "int" :type "typedef") (reparse-symbol namespacesubparts) [2079 2106]) ("termpos" type (:typedef ("unsigned int") :superclasses "unsigned int" :type "typedef") (reparse-symbol namespacesubparts) [2213 2238]) ("termpos_diff" type (:typedef ("int") :superclasses "int" :type "typedef") (reparse-symbol namespacesubparts) [2403 2428]) ("timeout" type (:typedef ("unsigned int") :superclasses "unsigned int" :type "typedef") (reparse-symbol namespacesubparts) [2614 2639]) ("valueno" type (:typedef ("unsigned int") :superclasses "unsigned int" :type "typedef") (reparse-symbol namespacesubparts) [2758 2783]) ("valueno_diff" type (:typedef ("int") :superclasses "int" :type "typedef") (reparse-symbol namespacesubparts) [2949 2974]) ("weight" type (:typedef ("double") :superclasses "double" :type "typedef") (reparse-symbol namespacesubparts) [3044 3066]) ("BAD_VALUENO" variable (:constant-flag t :default-value "static_cast<valueno>(-1)" :type ("valueno" type (:type "class") nil nil)) (reparse-symbol namespacesubparts) [3116 3169])) :type "namespace") nil [880 3172]))
+    :file "types.h"
+    :pointmax 3211
+    )
+   )
+  :file "semantic.cache"
+  :semantic-tag-version "2.0pre4"
+  :semanticdb-version "2.0pre4"
+  )

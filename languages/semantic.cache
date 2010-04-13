@@ -1,0 +1,16 @@
+;; Object languages/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "languages/"
+  :tables (list 
+   (semanticdb-table "stem.cc"
+    :major-mode 'c++-mode
+    :tags '(("config.h" include (:system-flag t) nil [835 854]) ("xapian/stem.h" include (:system-flag t) nil [856 880]) ("xapian/error.h" include (:system-flag t) nil [882 907]) ("steminternal.h" include nil nil [909 934]) ("allsnowballheaders.h" include nil nil [936 967]) ("string" include (:system-flag t) nil [969 986]) ("Xapian" type (:members (("Stem" function (:constructor-flag t :parent "Stem" :arguments (("o" variable (:constant-flag t :type ("Stem" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1041 1056])) :type ("Stem" type (:type "class") nil nil)) (reparse-symbol namespacesubparts) [1030 1083]) ("=" function (:operator-flag t :parent "Stem" :arguments (("o" variable (:constant-flag t :type ("Stem" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1106 1121])) :type "void") (reparse-symbol namespacesubparts) [1085 1152]) ("Stem" function (:constructor-flag t :parent "Stem" :type ("Stem" type (:type "class") nil nil)) (reparse-symbol namespacesubparts) [1154 1184]) ("Stem" function (:constructor-flag t :parent "Stem" :arguments (("language" variable (:constant-flag t :type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1197 1225])) :type ("Stem" type (:type "class") nil nil)) (reparse-symbol namespacesubparts) [1186 4037]) ("Stem" function (:destructor-flag t :parent "Stem" :type "void") (reparse-symbol namespacesubparts) [4039 4056]) ("()" function (:operator-flag t :parent "Stem" :arguments (("word" variable (:constant-flag t :type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4082 4106])) :type ("string" type (:type "class") nil nil)) (reparse-symbol namespacesubparts) [4058 4209]) ("get_description" function (:parent "Stem" :type ("string" type (:type "class") nil nil)) (reparse-symbol namespacesubparts) [4211 4418]) ("get_available_languages" function (:parent "Stem" :type ("string" type (:type "class") nil nil)) (reparse-symbol namespacesubparts) [4420 4485])) :type "namespace") nil [1010 4488]))
+    :file "stem.cc"
+    :pointmax 4489
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "semantic.cache"
+  :semantic-tag-version "2.0pre4"
+  :semanticdb-version "2.0pre4"
+  )
